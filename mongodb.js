@@ -1,6 +1,9 @@
-import { MongoClient, ServerApiVersion } from "mongodb";
-//const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://akunvalerie76:OQs8ZyXFwjQ2xa3g@nebulae.yla1bwe.mongodb.net/?retryWrites=true&w=majority&appName=Nebulae";
+import readline from "readline"
+import { MongoClient, ServerApiVersion } from "mongodb"
+import dotenv from "dotenv"
+dotenv.config();
+
+const uri = 'mongodb://localhost:27017'
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -10,6 +13,15 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
+
+const opt = [
+  { id: 1, info: "Find Data" },
+  { id: 2, info: "Find Many Data" },
+  { id: 3, info: "Insert Data" },
+  { id: 4, info: "Update Data" },
+  { id: 5, info: "Delete Data" }
+]
+
 
 async function run() {
   try {
@@ -24,3 +36,29 @@ async function run() {
   }
 }
 run().catch(console.dir);
+
+
+const queries = async () => {
+  setTimeout(() => {
+    console.log("\n==================")
+    console.log("|     Options    |")
+    console.log("==================")
+    opt.map((run) => {
+      console.log(`${run.id}. ${run.info}`)
+    })
+    const rl = readline.createInterface({
+      // eslint-disable-next-line no-undef
+      input: process.stdin,
+      // eslint-disable-next-line no-undef
+      output: process.stdout
+    });
+
+    rl.question('Select option : ', (answer) => {
+      console.log(`Running : ${opt[answer - 1].info} ...`)
+      rl.close()
+    });
+  }, 1500);
+}
+
+queries()
+
