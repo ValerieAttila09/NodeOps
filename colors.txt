@@ -1,4 +1,4 @@
 dark : #071952
 medium : #088395
 regular : #37B7C3
-thin : #EBF4F6
+thin : #f8feff
