@@ -5,7 +5,7 @@ import SignInButton from "./content/SignInButton"
 export default function Navbar() {
 
   return (
-    <div className="fixed top-0 w-full sm:px-[4rem] md:px-[6rem] px-4 py-[10px] bg-white/35 flex items-center justify-between">
+    <div className="fixed top-0 z-20 w-full sm:px-[4rem] md:px-[6rem] px-4 py-[10px] bg-white/35 flex items-center justify-between">
       <div className="flex items-center gap-1">
         <div className="size-8 flex items-center justify-center rounded-full bg-gradient-to-r from-[#071952] to-blue-900 shadow-sm">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-white">
