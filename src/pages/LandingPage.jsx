@@ -1,4 +1,4 @@
-import { LandingPageHeader, LandingPageIntro } from "../components/LandingPage";
+import { LandingPageBenefits, LandingPageHeader, LandingPageIntro } from "../components/LandingPage";
 import Navbar from "../components/Navbar";
 
 
@@ -8,6 +8,7 @@ export default function LandingPage() {
       <Navbar/>
       <LandingPageHeader/>
       <LandingPageIntro/>
+      <LandingPageBenefits/>
     </div>
   )
 }

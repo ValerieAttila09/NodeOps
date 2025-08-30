@@ -119,16 +119,162 @@ export function LandingPageIntro() {
   return (
     <div className="w-full bg-[#071952] py-[5rem] px-6">
       <div className="mb-10 flex flex-col items-center justify-center py-2">
-        <h1 className="text-5xl mb-3 text-white text-shadow-md outfit-regular">Efficient and Integrated <br/> Manufacturing Services</h1>
+        <h1 className="text-5xl mb-3 text-white text-shadow-md outfit-regular">Efficient and Integrated <br /> Manufacturing Services</h1>
         <p className="text-sm outfit-thin text-neutral-200">Simplify operations with our efficient. quality-focused services.</p>
       </div>
       <div className="grid grid-cols-3 gap-6 px-8">
-        <CardIntro/>
-        <CardIntro/>
-        <CardIntro/>
-        <CardIntro/>
-        <CardIntro/>
-        <CardIntro/>
+        <CardIntro />
+        <CardIntro />
+        <CardIntro />
+        <CardIntro />
+        <CardIntro />
+        <CardIntro />
+      </div>
+    </div>
+  )
+}
+
+export function LandingPageBenefits() {
+  return (
+    <div className="w-full bg-[#f8feff] py-[5rem] px-[4rem]">
+      <div className="flex gap-[4rem]">
+
+        <div className="w-5/7 border border-[#ebebeb] rounded-2xl bg-[#ebebeb] px-[4.2rem] py-[2.8rem] relative flex items-center justify-center">
+          <div className="w-full h-full rounded-md bg-[#f8feff] p-6 shadow-2xl">
+            <div className="mb-2">
+              <h1 className="text-lg mb-1 text-neutral-500 outfit-thin">Total Projects</h1>
+              <div className="flex items-center gap-2">
+                <span className="text-xl text-neutral-800 outfit-regular">1475</span>
+                <div className="bg-green-100 rounded-full p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="size-3 text-green-600">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+                <span className="text-md text-green-500 outfit-thin">34%</span>
+              </div>
+            </div>
+            <div className="my-5 w-full rounded-full h-[1px] bg-[#ebebeb]"></div>
+            <div className="grid mb-2 gap-3">
+              <div className="flex items-center justify-between">
+                <div className="w-1/5">
+                  <span className="text-sm text-neutral-500 outfit-thin">Test Data</span>
+                </div>
+                <div className="w-3/5">
+                  <div className="w-[87%] h-4 bg-[#ebebeb] rounded-sm"></div>
+                </div>
+                <div className="w-1/5">
+                  <p className="text-md text-end text-neutral-700 outfit-regular">17%</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="w-1/5">
+                  <span className="text-sm text-neutral-500 outfit-thin">Test Data</span>
+                </div>
+                <div className="w-3/5">
+                  <div className="w-[92%] h-4 bg-[#ebebeb] rounded-sm"></div>
+                </div>
+                <div className="w-1/5">
+                  <p className="text-md text-end text-neutral-700 outfit-regular">22%</p>
+                </div>
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="w-1/5">
+                  <span className="text-sm text-neutral-500 outfit-thin">Test Data</span>
+                </div>
+                <div className="w-3/5">
+                  <div className="w-[83%] h-4 bg-[#ebebeb] rounded-sm"></div>
+                </div>
+                <div className="w-1/5">
+                  <p className="text-md text-end text-neutral-700 outfit-regular">13%</p>
+                </div>
+              </div>
+            </div>
+            <div className="my-5 w-full rounded-full h-[1px] bg-[#ebebeb]"></div>
+            <div className="mb-2 rounded-sm bg-[#ebebeb] w-full h-4"></div>
+            <div className="w-full h-[120px] flex items-end justify-between gap-3">
+              <div className="w-[8%] h-[86%] bg-[#071952] rounded-sm"></div>
+              <div className="w-[8%] h-[79%] bg-[#088395] rounded-sm"></div>
+              <div className="w-[8%] h-[89%] bg-[#071952] rounded-sm"></div>
+              <div className="w-[8%] h-[74%] bg-[#088395] rounded-sm"></div>
+              <div className="w-[8%] h-[72%] bg-[#071952] rounded-sm"></div>
+              <div className="w-[8%] h-[92%] bg-[#088395] rounded-sm"></div>
+              <div className="w-[8%] h-[96%] bg-[#071952] rounded-sm"></div>
+              <div className="w-[8%] h-[82%] bg-[#088395] rounded-sm"></div>
+              <div className="w-[8%] h-[76%] bg-[#071952] rounded-sm"></div>
+              <div className="w-[8%] h-[95%] bg-[#088395] rounded-sm"></div>
+            </div>
+          </div>
+          <div className="absolute z-5 w-[265px] h-auto bottom-8 right-6 bg-[#f8feff] rounded-2xl border border-[#ebebeb] shadow-2xl p-6">
+            <div className="mb-3 w-full flex items-center justify-between">
+              <div className="p-1 rounded-md bg-[#37B7C3]/30">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                </svg>
+              </div>
+              <button className="p-1 border border-transparent hover:bg-[#fafafa] hover:border-[#ebebeb] transition-all rounded-md">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" />
+                </svg>
+              </button>
+            </div>
+            <div className="w-full">
+              <div className="mb-2 flex items-center gap-3">
+                <span className="text-md text-neutral-700 outfit-regular">Total Projects</span>
+                <div className="bg-green-100 rounded-full p-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor" className="size-3 text-green-600">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </div>
+                <span className="text-md text-green-500 outfit-thin">34%</span>
+              </div>
+              <h1 className="mb-2 text-4xl outfit-medium text-neutral-800">2361+</h1>
+              <p className="text-sm text-neutral-600">Increase of <span className="text-[#088395] outfit-regular">174</span> this month</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full px-2">
+          <h1 className="text-5xl mb-3 text-shadow-sm text-neutral-900 outfit-regular">Key Benefits of Our System for Your Projects Efficiency</h1>
+          <p className="text-md mb-5 text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officia ut in aspernatur. Ratione quidem aperiam totam illum repellat. Quos, consectetur minima!</p>
+
+          <div className="grid gap-4">
+            <div className="flex items-start gap-2">
+              <span className="pt-[2px] px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 text-[#071952]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </span>
+              <div className="flex flex-col gap-1">
+                <h1 className="text-xl outfit-regular text-neutral-800">Test Poin-poin Benefits</h1>
+                <p className="text-md text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto nam rem consequuntur unde omnis quidem iste repudiandae, itaque mollitia. Quam voluptatibus ducimus aliquid.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="pt-[2px] px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 text-[#071952]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </span>
+              <div className="flex flex-col gap-1">
+                <h1 className="text-xl outfit-regular text-neutral-800">Test Poin-poin Benefits</h1>
+                <p className="text-md text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto nam rem consequuntur unde omnis quidem iste repudiandae, itaque mollitia. Quam voluptatibus ducimus aliquid.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-2">
+              <span className="pt-[2px] px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7 text-[#071952]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </span>
+              <div className="flex flex-col gap-1">
+                <h1 className="text-xl outfit-regular text-neutral-800">Test Poin-poin Benefits</h1>
+                <p className="text-md text-neutral-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto nam rem consequuntur unde omnis quidem iste repudiandae, itaque mollitia. Quam voluptatibus ducimus aliquid.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
