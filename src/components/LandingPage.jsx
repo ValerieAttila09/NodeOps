@@ -279,3 +279,119 @@ export function LandingPageBenefits() {
     </div>
   )
 }
+
+export function LandingPagePlans() {
+  return (
+    <div className="w-full bg-[#040f14] py-[5rem] px-[4rem]">
+      <div className="mb-10 flex flex-col items-center justify-center py-2">
+        <h1 className="text-4xl mb-3 text-white text-shadow-md outfit-regular">Tailored Plans for Your<br /> Manufacturing Scale</h1>
+        <p className="text-sm outfit-thin text-neutral-200">Flexible pricing for any business size.</p>
+      </div>
+
+      <div className="flex items-start justify-center mx-auto max-w-5xl gap-4">
+        <div className="h-full rounded-xl p-6 bg-slate-800/40">
+          <h1 className="text-2xl text-white outfit-regular mb-2">Starter</h1>
+          <p className="text-md text-neutral-300 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel id illo facilis culpa nisi, recusandae quos quidem laborum quis.</p>
+
+          <h1 className="text-4xl mb-2 text-white outfit-medium">
+            <span>$39</span>
+            <span className="text-lg outfit-thin text-neutral-200">/month</span>
+          </h1>
+
+          <button className="w-full my-6 rounded-full bg-transparent border border-white p-2 text-white outfit-regular hover:bg-neutral-900/40 hover:shadow-md transition-all">Get Started</button>
+
+          <div className="w-full flex items-center gap-4 justify-center">
+            <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
+            <p className="text-neutral-400">Features</p>
+            <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
+          </div>
+
+          <ul className="mt-4 grid gap-1">
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+          </ul>
+
+        </div>
+        <div className="h-full rounded-xl p-6 bg-slate-800/40">
+          <h1 className="text-2xl text-white outfit-regular mb-2">Starter</h1>
+          <p className="text-md text-neutral-300 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel id illo facilis culpa nisi, recusandae quos quidem laborum quis.</p>
+
+          <h1 className="text-4xl mb-2 text-white outfit-medium">
+            <span>$59</span>
+            <span className="text-lg outfit-thin text-neutral-200">/month</span>
+          </h1>
+
+          <button className="w-full my-6 rounded-full bg-transparent border border-white p-2 text-white outfit-regular hover:bg-neutral-900/40 hover:shadow-md transition-all">Get Started</button>
+
+          <div className="w-full flex items-center gap-4 justify-center">
+            <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
+            <p className="text-neutral-400">Features</p>
+            <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
+          </div>
+
+          <ul className="mt-4 grid gap-1">
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+            <li className="flex items-center gap-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  )
+}
