@@ -1,6 +1,6 @@
 import { ArrowRight, Database, FocusIcon, LucideDownloadCloud, SidebarIcon, StarsIcon } from "lucide-react"
 import { Link } from "react-router-dom"
-import LandingPageImg from "../assets/images/landingpage-img.jpg"
+import LandingPageImg from "../assets/images/sigmund-psXNymQI7Pk-unsplash.jpg"
 import CardIntro from "./content/CardIntro"
 
 export function LandingPageHeader() {
