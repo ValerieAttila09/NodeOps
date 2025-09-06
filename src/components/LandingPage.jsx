@@ -388,3 +388,20 @@ export function LandingPagePlans() {
     </div>
   )
 }
+
+export function LandingPageIntegration() {
+  return (
+    <div className="w-full grid grid-cols-2 gap-6 bg-[#f8feff] py-[5rem] px-[4rem]">
+      <div className="col-span-1 flex items-center justify-center">
+        <h1 className="text-4xl text-neutral-900 outfit-medium">Empowering Top Companies with Seamless Integrations</h1>
+      </div>
+      <div className="col-span-1 w-full h-[420px]">
+        <div className="flex items-center justify-center w-full h-full rounded-lg bg-[#37B7C3]/25 relative overflow-hidden">
+          <div className="absolute size-[162px] rounded-full bg-transparent border border-[#a8c1c4]"></div>
+          <div className="absolute size-[282px] rounded-full bg-transparent border border-[#a8c1c4]"></div>
+          <div className="absolute size-[420px] rounded-full bg-transparent border border-[#a8c1c4]"></div>
+        </div>
+      </div>
+    </div>
+  )
+}
