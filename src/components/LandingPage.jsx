@@ -288,8 +288,8 @@ export function LandingPagePlans() {
         <p className="text-sm outfit-thin text-neutral-200">Flexible pricing for any business size.</p>
       </div>
 
-      <div className="flex items-start justify-center mx-auto max-w-5xl gap-4">
-        <div className="h-full rounded-xl p-6 bg-slate-800/40">
+      <div className="grid grid-cols-2 mx-auto max-w-5xl gap-4">
+        <div className="col-span-1 h-full rounded-xl p-6 bg-slate-800/40">
           <h1 className="text-2xl text-white outfit-regular mb-2">Starter</h1>
           <p className="text-md text-neutral-300 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel id illo facilis culpa nisi, recusandae quos quidem laborum quis.</p>
 
@@ -300,13 +300,13 @@ export function LandingPagePlans() {
 
           <button className="w-full my-6 rounded-full bg-transparent border border-white p-2 text-white outfit-regular hover:bg-neutral-900/40 hover:shadow-md transition-all">Get Started</button>
 
-          <div className="w-full flex items-center gap-4 justify-center">
+          <div className="w-full my-2 flex items-center gap-4 justify-center">
             <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
             <p className="text-neutral-400">Features</p>
             <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
           </div>
 
-          <ul className="mt-4 grid gap-1">
+          <ul className="mt-6 grid gap-1">
             <li className="flex items-center gap-4">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -334,36 +334,24 @@ export function LandingPagePlans() {
           </ul>
 
         </div>
-        <div className="h-full rounded-xl p-6 bg-slate-800/40">
-          <h1 className="text-2xl text-white outfit-regular mb-2">Starter</h1>
+        <div className="col-span-1 h-full rounded-xl p-6 bg-slate-800/40">
+          <h1 className="text-2xl text-white outfit-regular mb-2">Enterprise</h1>
           <p className="text-md text-neutral-300 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel id illo facilis culpa nisi, recusandae quos quidem laborum quis.</p>
 
           <h1 className="text-4xl mb-2 text-white outfit-medium">
             <span>$59</span>
-            <span className="text-lg outfit-thin text-neutral-200">/month</span>
+            <span className="text-lg outfit-thin text-neutral-200">/ month</span>
           </h1>
 
           <button className="w-full my-6 rounded-full bg-transparent border border-white p-2 text-white outfit-regular hover:bg-neutral-900/40 hover:shadow-md transition-all">Get Started</button>
 
-          <div className="w-full flex items-center gap-4 justify-center">
+          <div className="w-full my-2 flex items-center gap-4 justify-center">
             <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
             <p className="text-neutral-400">Features</p>
             <div className="w-full bg-neutral-400 h-[1px] rounded-full"></div>
           </div>
 
-          <ul className="mt-4 grid gap-1">
-            <li className="flex items-center gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-              </svg>
-              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li className="flex items-center gap-4">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-              </svg>
-              <p className="text-white text-md">Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
+          <ul className="mt-6 grid gap-1">
             <li className="flex items-center gap-4">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-500">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
@@ -390,6 +378,11 @@ export function LandingPagePlans() {
             </li>
           </ul>
 
+        </div>
+        <div className="col-span-2 h-full rounded-xl p-6 bg-gradient-to-t from-green-600/60 to-green-800 flex flex-col items-center justify-center">
+          <h1 className="text-2xl mb-1 text-white outfit-regular">Professional</h1>
+          <p className="text-sm mb-4 text-center text-neutral-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br/> Nihil ullam labore hic velit, accusantium recusandae harum quasi!</p>
+          <button className="px-8 py-2 outfit-regular rounded-full bg-[#f8feff]/80 shadow-sm hover:bg-white hover:shadow-lg transition-all">Get Started</button>
         </div>
       </div>
     </div>
