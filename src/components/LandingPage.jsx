@@ -13,10 +13,10 @@ export function LandingPageHeader() {
 
   return (
     <div className="w-full">
-      <div className="w-full h-[135vh] relative bg-[#f8feff] pt-[10rem]">
-        <h1 className="mx-auto w-[65%] text-6xl text-shadow-sm text-center outfit-regular text-[#0b1021]">Connect APIs. Build Workflows. Ship Faster.</h1>
-        <p className="md:w-[50%] mx-auto text-md text-[#455368] text-center mt-4">From webhooks to Google Sheets, build integrations in just minutes with a visual editor and real-time execution.</p>
-        <div className="w-full flex items-center justify-center gap-2 mt-6">
+      <div className="w-full p-6 md:p-0 h-full sm:h-[135vh] relative bg-[#f8feff] py-[6rem] sm:py-[8rem] md:py-[10rem]">
+        <h1 className="mx-auto w-[90%] md:w-[65%] text-4xl sm:text-5xl md:text-6xl text-shadow-sm text-center outfit-regular text-[#0b1021]">Connect APIs. Build Workflows. Ship Faster.</h1>
+        <p className="w-[95%] md:w-[50%] mx-auto text-sm md:text-md text-[#455368] text-center mt-4">From webhooks to Google Sheets, build integrations in just minutes with a visual editor and real-time execution.</p>
+        <div className="w-full flex flex-col md:flex-row items-center justify-center gap-2 mt-6">
           <button className="px-5 py-2 rounded-full bg-[#071952] text-white shadow-xs border border-[#ebebeb] hover:shadow-sm hover:bg-white hover:text-neutral-900 transition-all">Get Started</button>
           <button className="px-5 py-2 rounded-full bg-white border border-[#ebebeb] shadow-xs hover:shadow-sm transition-shadow">See Documentation</button>
         </div>
@@ -54,24 +54,24 @@ export function LandingPageHeader() {
           </div>
         </div>
 
-        <div className="absolute z-5 left-[7%] bottom-[42%] border border-[#0b1021] rounded-full p-2">
+        <div className="absolute z-5 left-[7%] bottom-[36%] sm:bottom-[42%] border border-[#0b1021] rounded-full p-2">
           <ArrowRight size={22} className="text-[#0b1021] -rotate-45" />
         </div>
-        <div className="absolute z-5 left-[12%] bottom-[35%] bg-[#071952] rounded-full p-2">
+        <div className="absolute z-5 left-[12%] bottom-[47%] sm:bottom-[35%] bg-[#071952] rounded-full p-2">
           <StarsIcon size={18} className="text-[#f8feff]" />
         </div>
-        <div className="absolute z-5 left-[9%] bottom-[51%] bg-[#37b703]/35 rounded-full p-2">
+        <div className="absolute z-5 left-[9%] bottom-[24%] sm:bottom-[51%] bg-[#37b703]/35 rounded-full p-2">
           <LucideDownloadCloud size={18} className="text-[#0b1021]" />
         </div>
 
-        <div className="absolute z-5 right-[7%] bottom-[46%] bg-[#071952] rounded-full p-2">
+        <div className="absolute z-5 right-[7%] bottom-[41%] sm:bottom-[46%] bg-[#071952] rounded-full p-2">
           <Database size={18} className="text-[#f8feff]" />
         </div>
-        <div className="absolute z-5 right-[12%] bottom-[39%] bg-[#37b703]/35 rounded-full p-2">
+        <div className="absolute z-5 right-[12%] bottom-[24%] sm:bottom-[39%] bg-[#37b703]/35 rounded-full p-2">
           <FocusIcon size={18} className="text-[#0b1021]" />
         </div>
 
-        <div className="mt-[3rem] w-full h-[16rem] flex items-end justify-center gap-5">
+        <div className="hidden mt-[3rem] w-full h-[16rem] sm:flex items-end justify-center gap-5">
           <div className="shadow-md h-full w-[10rem] overflow-hidden rounded-2xl">
             <img src={LandingPageImg} className="w-auto h-full object-cover" alt="" />
           </div>
@@ -125,10 +125,10 @@ export function LandingPageIntro() {
   return (
     <div className="w-full bg-[#071952] py-[5rem] px-6">
       <div className="mb-10 flex flex-col items-center justify-center py-2">
-        <h1 className="text-5xl mb-3 text-white text-shadow-md outfit-regular">Efficient and Integrated <br /> Manufacturing Services</h1>
+        <h1 className="sm:text-5xl text-4xl mb-3 text-white text-center text-shadow-md outfit-regular">Efficient and Integrated <br /> Manufacturing Services</h1>
         <p className="text-sm outfit-thin text-neutral-200">Simplify operations with our efficient. quality-focused services.</p>
       </div>
-      <div className="grid grid-cols-3 gap-6 px-8">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-8">
         <CardIntro />
         <CardIntro />
         <CardIntro />
@@ -142,10 +142,10 @@ export function LandingPageIntro() {
 
 export function LandingPageBenefits() {
   return (
-    <div className="w-full bg-[#f8feff] py-[5rem] px-[4rem]">
-      <div className="flex gap-[4rem]">
+    <div className="w-full bg-[#f8feff] py-[5rem] p-4 md:px-[4rem]">
+      <div className="flex flex-col md:flex-row gap-[4rem]">
 
-        <div className="w-5/7 border border-[#ebebeb] rounded-2xl bg-[#ebebeb] px-[4.2rem] py-[2.8rem] relative flex items-center justify-center">
+        <div className="md:w-5/7 w-full border border-[#ebebeb] rounded-2xl bg-[#ebebeb] p-4 md:px-[4.2rem] md:py-[2.8rem] relative flex items-center justify-center">
           <div className="w-full h-full rounded-md bg-[#f8feff] p-6 shadow-2xl">
             <div className="mb-2">
               <h1 className="text-lg mb-1 text-neutral-500 outfit-thin">Total Projects</h1>
@@ -397,13 +397,13 @@ export function LandingPagePlans() {
 
 export function LandingPageIntegration() {
   return (
-    <div className="w-full grid grid-cols-2 gap-6 bg-[#f8feff] py-[5rem] px-[4rem]">
+    <div className="w-full grid md:grid-cols-2 gap-6 bg-[#f8feff] py-[5rem] p-4 md:px-[4rem]">
       <div className="col-span-1 flex flex-col items-start justify-center">
         <h1 className="mb-4 text-4xl text-neutral-900 outfit-medium">Empowering Top Companies with Seamless Integrations</h1>
         <p className="text-md text-neutral-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim incidunt laboriosam ipsum perferendis ea, perspiciatis, est dolor deserunt velit, omnis voluptates aliquid? Repellat ipsum nesciunt tempora labore?</p>
         <button className="my-7 text-lg px-4 py-2 bg-[#37B7C3]/25 rounded-full hover:bg-[#37B7C3] transition-all">Work With Us</button>
       </div>
-      <div className="col-span-1 w-full h-[420px]">
+      <div className="col-span-1 w-full h-[390px] sm:h-[420px]">
         <div className="flex items-center justify-center w-full h-full rounded-lg bg-[#37B7C3]/25 relative overflow-hidden">
           <div className="absolute size-[162px] rounded-full bg-transparent border border-[#c5dbdd]"></div>
           <div className="absolute size-[282px] rounded-full bg-transparent border border-[#c5dbdd]"></div>
@@ -437,10 +437,10 @@ export function LandingPageIntegration() {
           <div className="absolute right-57 bottom-31 rounded-lg bg-white overflow-hidden p-2">
             <img src={MicrosoftIcon} alt="" className="w-6 h-auto" />
           </div>
-          <div className="absolute right-57 top-31 rounded-lg bg-white overflow-hidden px-2 py-3">
+          <div className="absolute right-56 md:top-31 top-25 rounded-lg bg-white overflow-hidden px-2 py-3">
             <img src={NVIDIAIcon} alt="" className="w-6 h-auto" />
           </div>
-          <div className="absolute left-51 bottom-1/2 rounded-lg bg-white overflow-hidden px-2 py-[6px]">
+          <div className="absolute md:left-51 md:right-[29%] bottom-1/2 rounded-lg bg-white overflow-hidden px-2 py-[6px]">
             <img src={AzureIcon} alt="" className="w-6 h-auto" />
           </div>
         </div>
